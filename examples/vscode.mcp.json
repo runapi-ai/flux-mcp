@@ -1,0 +1,12 @@
+{
+  "servers": {
+    "flux": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@runapi.ai/flux-mcp"
+      ]
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "endpoints": {
+    "flux-dev/remix_image": {
+      "unit_price_cents": 7
+    },
+    "flux-dev/text_to_image": {
+      "unit_price_cents": 7
+    },
+    "flux-pro/remix_image": {
+      "unit_price_cents": 10
+    },
+    "flux-pro/text_to_image": {
+      "unit_price_cents": 10
+    },
+    "flux-2-klein/text_to_image": {
+      "unit_price_cents": 3
+    }
+  }
+}
