@@ -74,10 +74,10 @@ Ready-made examples are in [`examples/`](examples/) for Claude, Cursor, Windsurf
 
 | Tool | Auth | Purpose |
 |---|---|---|
-| `remix_image` | Yes | Create a Flux remix image task and optionally wait for a terminal status. Returns the task id, status, output URLs, and pricing snapshot. |
-| `text_to_image` | Yes | Create a Flux text to image task and optionally wait for a terminal status. Returns the task id, status, output URLs, and pricing snapshot. |
+| `remix_image` | Yes | Create a Flux remix image task and optionally wait for a terminal status. Returns the task id, status, and output URLs. |
+| `text_to_image` | Yes | Create a Flux text to image task and optionally wait for a terminal status. Returns the task id, status, and output URLs. |
 | `get_task` | Yes | Fetch the current status and latest payload for an existing task. |
-| `check_pricing` | No | Look up the current pricing snapshot for a Flux model and endpoint. |
+| `check_pricing` | No | Look up current pricing for a Flux model and endpoint. |
 
 ---
 
